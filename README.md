@@ -2,23 +2,17 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# AI
-
-Final project for the Building AI course
+# Project Title
+AI
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Artificial Intelligence projects are intelligent projects that make machines capable of executing a task that requires human intelligence. The goal of these intelligent agents includes learning, reasoning, problem-solving, and perception. AI includes many theories, methods, and technologies. 
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Artificial Intelligence projects are intelligent projects that make machines capable of executing a task that requires human intelligence. The goal of these intelligent agents includes learning, reasoning, problem-solving, and perception. AI includes many theories, methods, and technologies.
 
 
 ## How is it used?
