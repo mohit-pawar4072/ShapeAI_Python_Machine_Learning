@@ -1,79 +1,47 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
+# Artificial Intelligence in financial risk management
+	
 
-# Build_Your_Own_AI_Investor
-Build your own AI investor 2020. Track performance on www.valueinvestingai.com. Buy the book on Amazon for full walkthrough and instructions from basic Python to completion of a Machine Learning project where you build your own AI Investor that picks stocks annually
+Final project for the Building AI course
+	
+	
 
 ## Summary
+	
+This project's goal is to provide a tool, that would allow for easier and better assessment of the financial risk. AI-based tool to help people that are investing on a stock markets assess the risk is the main target of this project.
 
-* To assist people who follow the book
-* Intended to be simple enough for total beginners who have never touched Python before
-* Basic machine learning for stock investing
+	
 
 ## Background
-
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+	
+When it comes to risk management, people (or in this case investors, to be more precise) often tend to (for example) overestimate possible events with very big impact on the price of asset, yet with very low probability of happening. At the same time they often underestimate possible events with small impact on the price of asset, yet with very high probability of happening and/or possible multiple occurance, effectively affecting an asset the same amout as the low probability event. That problem could be solved by an AI 'advisor' able to analyse the data and calculate the real risk and eventually advise whether or not sell/buy an asset. Also, with the AI solution we could resign from traditional methods of risk valuation and try to develop a new one, based on a real data (with possibility to use past data to train the model - we can take the data from past to train the model, where our expected result would be let's say today's price of an asset).
+	
 
 
 ## How is it used?
+	
+Solution would be available for everyone, yet everyone would be using it on their own responsibility (predictions are still only predictions, investors are the ones deciding whether or not they will do what AI advises as it can not always be good advise! The use itself would be very simple - just give the program an index of a listed company, give it time to process the data and check out the results.
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+	
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+	
+As we are talking about investing on a stock market and managing/valuating risk, the access to data is very simple - everyday prices of shares of listed companies (or any other financial instruments) are commonly available in multiple sources. In case of this project, the most desirable data source would be the one providing an API, so the program could gather necessary data by itself, without a need of a person uploading any data sets manually.
+	
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
 
 ## Challenges
+	
+The main challange when it comes to stock markets is behavior of other investors (that sometimes might be illogical) and random events (such as virus outbreak in China) that can cause very strong impact on a market and are nearly impossible to predict/have extremaly low probability of happening. 
+	
+	
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+## What next?	
 
-## What next?
+Data gathering, building a simple model for first tests and looking where it goes!
+	
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
+## Acknowledgments	
 
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+*  The [Elements of AI](https://www.elementsofai.com/) Team for giving an inspiration to think about this project
+*  The rest will come with the project's progress :)
