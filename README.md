@@ -1,10 +1,29 @@
+<!-- This is the markdown template for the final project of the Building AI course, 
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
+
 # Build_Your_Own_AI_Investor
 Build your own AI investor 2020. Track performance on www.valueinvestingai.com. Buy the book on Amazon for full walkthrough and instructions from basic Python to completion of a Machine Learning project where you build your own AI Investor that picks stocks annually
 
 ## Summary
+
 * To assist people who follow the book
 * Intended to be simple enough for total beginners who have never touched Python before
 * Basic machine learning for stock investing
+
+## Background
+
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+
+This is how you make a list, if you need one:
+* problem 1
+* problem 2
+* etc.
+
+
+## How is it used?
+
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
